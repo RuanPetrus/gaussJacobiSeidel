@@ -8,5 +8,8 @@ Ex:
 ```python3 gauss.py jacobi 0.01```
 ```python3 gauss.py seidel 0.01```
 
+Resultado:
+
+![Resultado](https://github.com/RuanPetrus/gaussJacobiSeidel/blob/649041720b795f577f000bf759ea4f56cf701ffc/image/example.png)  
 
 Criado para a matéria de Calculo Numérico
