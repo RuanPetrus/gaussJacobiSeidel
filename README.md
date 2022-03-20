@@ -1,6 +1,6 @@
 # Metodo de Gauss Jacobi e Gauss Seidel
 
-Coloque sua matris no arquivo matris.txt e seu vetor inicial no vetor_inicial.txt.  
+Coloque sua matris no arquivo matriz.txt e seu vetor inicial no vetor_inicial.txt.  
 
 Depois rode o programa com a metodo e o erro que vc quer.  
 Ex:  

@@ -2,8 +2,8 @@ import sys
 
 
 def usage():
-    print("Put your matrix in the matris.txt file")
-    print("Put your inicial_vector of solution in the vetor_incial.txt file")
+    print("Put your matrix in the matriz.txt file")
+    print("Put your inicial_vector of solution in the vetor_inicial.txt file")
     print("RUN the program:")
     print()
     print("python3 gauss.py <mode> inicial_error: ")
@@ -155,7 +155,7 @@ def main(argv):
 
     error_inicial = float(argv[2])
 
-    matriz = parse_file("matris.txt")
+    matriz = parse_file("matriz.txt")
     sol_vec = parse_file("vetor_inicial.txt")
 
     if argv[1] == "jacobi":
