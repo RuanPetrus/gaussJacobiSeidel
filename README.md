@@ -23,6 +23,8 @@ Ex:
 
 Resultado:  
 
+![Interpolação](https://github.com/RuanPetrus/gaussJacobiSeidel/blob/master/image/interpolacao.png)
+
 Criado para a matéria de Calculo Numérico
 
 ATENÇÃO: Possíveis erros de ponto flutuante
