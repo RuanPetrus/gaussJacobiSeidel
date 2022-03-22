@@ -36,35 +36,6 @@ def parse_file(file_path):
         return matrix
 
 
-def get_dr(ini, next):
-    mul = abs(next[0][0] - ini[0][0])
-
-    for i in range(1, len(ini)):
-        aux = abs(next[i][0] - ini[i][0])
-
-        if (aux > mul):
-            mul = aux
-
-    div = abs(next[0][0])
-
-    for i in range(0, len(ini)):
-        aux = abs(next[i][0])
-
-        if (aux > div):
-            div = aux
-
-    return mul/div
-
-
-def cpy_matrix(dst, src):
-    for row in src:
-        line = []
-        for el in row:
-            line.append(el)
-
-        dst.append(line)
-
-
 def generate_table(dst, src):
     for x in src[0]:
         dst.append([x, ' ', ' ', ' ', ' '])
@@ -126,7 +97,7 @@ def solve_3points(table, index, point):
     max_diff = table[0][4]
 
     for i in range(1, len(table) - 3):
-        order3 = table[i][4]
+        order3 = abs(table[i][4])
         if order3 > max_diff:
             max_diff = order3
 
